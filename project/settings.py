@@ -46,6 +46,9 @@ INSTALLED_APPS = [
 
     # django-hosts
     'django_hosts',
+
+    # project apps
+    'help'
 ]
 
 MIDDLEWARE = [
