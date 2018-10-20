@@ -29,7 +29,7 @@ ALLOWED_HOSTS = [
     'djapp.com',
     '127.0.0.1',
     'blog.djapp.com',
-    'admin.djapp.com',
+    'help.djapp.com',
     'www.djapp.com'
 ]
 
