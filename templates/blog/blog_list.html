@@ -1,0 +1,10 @@
+{% load hosts %}
+
+<nav>
+	<ul>
+		<li><a href="{% host_url 'home' host 'blog' %}" title="Blog Home Page">Blog Home Page</a></li>
+		<li><a href="{% host_url 'list' host 'blog' %}" title="Blog list Page">Blog List Page</a></li>
+	</ul>
+</nav>
+
+<h1>Blog List Page Lives Here</h1>
