@@ -25,7 +25,13 @@ SECRET_KEY = '(e(m6*n5+j%b=u8w82xh=n_6*zs=+fgqs#j)3&(m3zsn06b1o$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'djapp.com',
+    '127.0.0.1',
+    'blog.djapp.com',
+    'admin.djapp.com',
+    'www.djapp.com'
+]
 
 
 # Application definition
@@ -61,6 +67,8 @@ ROOT_URLCONF = 'project.urls'
 ROOT_HOSTCONF = 'project.hosts'
 
 DEFAULT_HOST = 'www'
+
+DEFAULT_REDIRECT_URL = 'http://www.djapp.com:8000'
 
 TEMPLATES = [
     {
