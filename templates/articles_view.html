@@ -1,0 +1,11 @@
+{% load hosts %}
+
+<nav>
+	<ul>
+		<li><a href="{% host_url 'home' host 'www' %}" title="Help home page">Home Page</a></li>
+		<li><a href="{% host_url 'articles' host 'help' %}" title="Help home page">Help Articles Page</a></li>
+		<li><a href="{% host_url 'home' host 'help' %}" title="Help home page">Help Home</a></li>
+	</ul>
+</nav>
+
+<h1>Help Article Page Lives Here</h1>
